@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Котлы</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="fontawesome-free-5.8.1-web/css/all.min.css">
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
+    <!-- normalize -->
+    <link rel="stylesheet" href="style/normalize.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="style/stylesheet.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+        <div class="header-top hidden-sm hidden-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8">
+                        <nav class="info-nav">
+                            <ul class="info-nav-block">
+                                <li class="info-nav-item"><a href="#" class="info-nav-link">Окомпании</a></li>
+                                <li class="info-nav-item"><a href="#" class="info-nav-link">Доставкаиоплата</a></li>
+                                <li class="info-nav-item"><a href="#" class="info-nav-link">Гарантия</a></li>
+                                <li class="info-nav-item"><a href="#" class="info-nav-link">Вопрос-ответ</a></li>
+                                <li class="info-nav-item"><a href="#" class="info-nav-link">Контакты</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="entrance">
+                            <ul class="entrance-block">
+                                <li class="entrance-item"><span class="entrance-user-icon"></span><a href="#" class="entrance-link">Войти</a></li>
+                                <li class="entrance-item"><a href="#" class="entrance-link">Регистрация</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12 col-xs-12">
+                        <div class="menu-gamburger pull-left">
+                            <button>
+                                <i class="menu-gamburger-icon"></i>
+                            </button>
+                        </div>
+                        <div class="ligo-block pull-left">
+                            <a href="#" class="logo-link">
+                                <img src="images/logo.png" alt="logo" class="logo-image hidden-xs">
+                                <img src="images/Group_1.png" alt="logo" class="logo-image-mob hidden-lg hidden-md hidden-sm visible-xs"></a>
+                        </div>
+                        <div class="search-block pull-left">
+                            <input type="text" placeholder="Поиск по сайту" class="hidden-sm hidden-xs">
+                            <button>
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                        <div class="time-work pull-left hidden-md hidden-sm hidden-xs">
+                            <div class="header-icon header-icon-time"></div>
+                            <span class="time-work-bold">Пн.-Пт.:</span> 9:00 - 19:00 <span class="time-work-bold">Сб.-Вс.:</span> 10:00 - 16:00
+                        </div>
+                        <div class="call-request pull-left">
+                            <div class="header-icon header-icon-call  hidden-xs"></div>
+                            <div class="call-request-phon  hidden-xs">+7 (495) 670 70 70</div>
+                            <button class="call-request-link"  data-toggle="modal" data-target="#myModal">Заказать звонок</button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title" id="myModalLabel">Название модали</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                    ...
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-primary">Сохранить изменения</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="compare pull-left"><a href="#" class="compare-link"><i class="compare-link-icon"></i></a></div>
+                        <div class="cart pull-left">
+                            <button>
+                                <i class="cart-icon"></i>
+                                <i class="cart-quantity hidden-xs"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-nav">
+            <div class="container">
+                <nav class="nav-main hidden-sm hidden-xs">
+                    <ul class="nav-block">
+                        <li class="nav-item"><a href="#" class="nav-link">Кондиционеры</a>
+                            <ul class="sub-nav-block">
+                                <li class="sub-nav-item"><a href="#" class="sub-nav-link">Приточные установки</a></li>
+                                <li class="sub-nav-item"><a href="#" class="sub-nav-link">Приточно-вытяжные установки</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">Вентиляционное оборудование</a>
+                            <ul class="sub-nav-block">
+                                <li class="sub-nav-item"><a href="#" class="sub-nav-link">Приточные установки</a></li>
+                                <li class="sub-nav-item"><a href="#" class="sub-nav-link">Приточно-вытяжные установки</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">Котлы</a>
+                            <ul class="sub-nav-block">
+                                <li class="sub-nav-item"><a href="#" class="sub-nav-link">Приточные установки</a></li>
+                                <li class="sub-nav-item"><a href="#" class="sub-nav-link">Приточно-вытяжные установки</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">Тепловыепушки</a>
+                            <ul class="sub-nav-block">
+                                <li class="sub-nav-item"><a href="#" class="sub-nav-link">Приточные установки</a></li>
+                                <li class="sub-nav-item"><a href="#" class="sub-nav-link">Приточно-вытяжные установки</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">Бойлеры</a>
+                            <ul class="sub-nav-block">
+                                <li class="sub-nav-item"><a href="#" class="sub-nav-link">Приточные установки</a></li>
+                                <li class="sub-nav-item"><a href="#" class="sub-nav-link">Приточно-вытяжные установки</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">Радиаторы</a>
+                            <ul class="sub-nav-block">
+                                <li class="sub-nav-item"><a href="#" class="sub-nav-link">Приточные установки</a></li>
+                                <li class="sub-nav-item"><a href="#" class="sub-nav-link">Приточно-вытяжные установки</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">Тепловыезавесы</a>
+                            <ul class="sub-nav-block">
+                                <li class="sub-nav-item"><a href="#" class="sub-nav-link">Приточные установки</a></li>
+                                <li class="sub-nav-item"><a href="#" class="sub-nav-link">Приточно-вытяжные установки</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="wraper">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <ul class="breadcrumb">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Котлы</a></li>
+                    </ul>
+                    <h1 class="title">Газовые котлы</h1>
+                    <div class="filter col-lg-3 hidden-md hidden-sm hidden-xs"></div>
+                    <div class="category-block col-lg-9 col-md-12 col-sm-12 col-sx-12">
+                        <div class="sort">
+                            <div class="pull-left">
+                                <button class="hidden-lg filter-btn"><i class="fal fa-filter" aria-hidden="true"></i>Фильтры</button>
+                                <span class="sort-wrapper">
+                                    <label for="input-sort">Сортировать:</label>
+                                    <span class="custom-select">
+                                        <select id="input-sort">
+                                            <option value="" selected="selected">от дешевых к дорогим</option>
+                                            <option value="">По наименованию</option>
+                                            <option value="">По новинкам</option>
+                                            <option value="">По рейтингу</option>
+                                        </select>
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="pull-right hidden-xs">
+                                <label for="input-limit">Выводить по:</label>
+                                <span class="custom-select">
+                                    <select id="input-limit">
+                                        <option value="" selected="selected">15</option>
+                                        <option value="">18</option>
+                                        <option value="">21</option>
+                                    </select>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <div class="category-product-block">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="product clearfix">
+                                        <div class="product-img-block">
+                                            <div class="product-label">
+                                                <span class="label-hit">Хит</span>
+                                                <span class="label-action"></span>
+                                                <span class="label-sale"></span>
+                                            </div>
+                                            <a href="#" class="product-img-link"><img src="images/Layer_5.png" alt="Product" class="product-image img-responsive"></a>
+                                        </div>
+                                        <div class="product-desc-block">
+                                            <h3 class="product-title"><a href="#" class="product-link">Котел Ariston CARES X 24 FF NG</a></h3>
+                                            <div class="product-reviews">
+                                                <ul class="product-rating-block pull-left">
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <div class="review-block pull-right">
+                                                    <i class="fas fa-comment"></i>
+                                                    <a href="#" class="reviews-link">12 отзывов</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-price clearfix">
+                                                <span class="price-new pull-left">32 900 <span>р.</span></span>
+                                                <span class="price-old pull-left">34 500 <span>р.</span></span>
+                                            </div>
+                                            <div class="product-payment">Рассрочка: 670 р./мес.</div>
+                                            <button class="product-cart pull-left">В корзину</button>
+                                            <button class="product-in-compare">
+                                                <i class="product-compare-icon"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="product clearfix">
+                                        <div class="product-img-block">
+                                            <div class="product-label">
+                                                <span class="label-action">Акция</span>
+                                            </div>
+                                            <a href="#" class="product-img-link"><img src="images/Layer_5.png" alt="Product" class="product-image img-responsive"></a>
+                                        </div>
+                                        <div class="product-desc-block">
+                                            <h3 class="product-title"><a href="#" class="product-link">Котел Ariston CARES X 24 FF NG</a></h3>
+                                            <div class="product-reviews">
+                                                <ul class="product-rating-block pull-left">
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <div class="review-block pull-right">
+                                                    <i class="fas fa-comment"></i>
+                                                    <a href="#" class="reviews-link">3 отзывa</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-price clearfix">
+                                                <span class="price-new pull-left">32 900 <span>р.</span></span>
+                                                <span class="price-old pull-left">34 500 <span>р.</span></span>
+                                            </div>
+                                            <div class="product-payment">Рассрочка: 670 р./мес.</div>
+                                            <button class="product-cart pull-left">В корзину</button>
+                                            <button class="product-in-compare">
+                                                <i class="product-compare-icon"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="product clearfix">
+                                        <div class="product-img-block">
+                                            <div class="product-label">
+                                                <span class="label-sale">-10%</span>
+                                            </div>
+                                            <a href="#" class="product-img-link"><img src="images/Layer_5.png" alt="Product" class="product-image img-responsive"></a>
+                                        </div>
+                                        <div class="product-desc-block">
+                                            <h3 class="product-title"><a href="#" class="product-link">Котел Ariston CARES X 24 FF NG</a></h3>
+                                            <div class="product-reviews">
+                                                <ul class="product-rating-block pull-left">
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <div class="review-block pull-right">
+                                                    <i class="fas fa-comment"></i>
+                                                    <a href="#" class="reviews-link">12 отзывов</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-price clearfix">
+                                                <span class="price-new pull-left">32 900 <span>р.</span></span>
+                                                <span class="price-old pull-left">34 500 <span>р.</span></span>
+                                            </div>
+                                            <div class="product-payment">Рассрочка: 670 р./мес.</div>
+                                            <button class="product-cart pull-left">В корзину</button>
+                                            <button class="product-in-compare">
+                                                <i class="product-compare-icon"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="product clearfix">
+                                        <div class="product-img-block">
+                                            <div class="product-label">
+                                                <span class="label-new">Новинка</span>
+                                            </div>
+                                            <a href="#" class="product-img-link"><img src="images/Layer_5.png" alt="Product" class="product-image img-responsive"></a>
+                                        </div>
+                                        <div class="product-desc-block">
+                                            <h3 class="product-title"><a href="#" class="product-link">Котел Ariston CARES X 24 FF NG</a></h3>
+                                            <div class="product-reviews">
+                                                <ul class="product-rating-block pull-left">
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <div class="review-block pull-right">
+                                                    <i class="fas fa-comment"></i>
+                                                    <a href="#" class="reviews-link">1 отзыв</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-price clearfix">
+                                                <span class="price-new pull-left">32 900 <span>р.</span></span>
+                                                <span class="price-old pull-left">34 500 <span>р.</span></span>
+                                            </div>
+                                            <div class="product-payment">Рассрочка: 670 р./мес.</div>
+                                            <button class="product-cart pull-left">В корзину</button>
+                                            <button class="product-in-compare">
+                                                <i class="product-compare-icon"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="product clearfix">
+                                        <div class="product-img-block">
+                                            <div class="product-label">
+                                            </div>
+                                            <a href="#" class="product-img-link"><img src="images/Layer_5.png" alt="Product" class="product-image img-responsive"></a>
+                                        </div>
+                                        <div class="product-desc-block">
+                                            <h3 class="product-title"><a href="#" class="product-link">Котел Ariston CARES X 24 FF NG</a></h3>
+                                            <div class="product-reviews">
+                                                <ul class="product-rating-block pull-left">
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star  rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <div class="review-block pull-right">
+                                                    <i class="fas fa-comment"></i>
+                                                    <a href="#" class="reviews-link">65 отзывов</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-price clearfix">
+                                                <span class="price-new pull-left">32 900 <span>р.</span></span>
+                                            </div>
+                                            <div class="product-payment">Рассрочка: 670 р./мес.</div>
+                                            <button class="product-cart pull-left">В корзину</button>
+                                            <button class="product-in-compare">
+                                                <i class="product-compare-icon"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="product clearfix">
+                                        <div class="product-img-block">
+                                            <div class="product-label">
+                                            </div>
+                                            <a href="#" class="product-img-link"><img src="images/Layer_5.png" alt="Product" class="product-image img-responsive"></a>
+                                        </div>
+                                        <div class="product-desc-block">
+                                            <h3 class="product-title"><a href="#" class="product-link">Котел Ariston CARES X 24 FF NG</a></h3>
+                                            <div class="product-reviews">
+                                                <ul class="product-rating-block pull-left">
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <div class="review-block pull-right">
+                                                    <i class="fas fa-comment"></i>
+                                                    <a href="#" class="reviews-link">23 отзывов</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-price clearfix">
+                                                <span class="price-new pull-left">32 900 <span>р.</span></span>
+                                                <span class="price-old pull-left">34 500 <span>р.</span></span>
+                                            </div>
+                                            <div class="product-payment">Рассрочка: 670 р./мес.</div>
+                                            <button class="product-cart pull-left">В корзину</button>
+                                            <button class="product-in-compare">
+                                                <i class="product-compare-icon"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="product clearfix">
+                                        <div class="product-img-block">
+                                            <div class="product-label">
+                                                <span class="label-action">Акция</span>
+                                            </div>
+                                            <a href="#" class="product-img-link"><img src="images/Layer_5.png" alt="Product" class="product-image img-responsive"></a>
+                                        </div>
+                                        <div class="product-desc-block">
+                                            <h3 class="product-title"><a href="#" class="product-link">Котел Ariston CARES X 24 FF NG</a></h3>
+                                            <div class="product-reviews">
+                                                <ul class="product-rating-block pull-left">
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <div class="review-block pull-right">
+                                                    <i class="fas fa-comment"></i>
+                                                    <a href="#" class="reviews-link">12 отзывов</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-price clearfix">
+                                                <span class="price-new pull-left">32 900 <span>р.</span></span>
+                                                <span class="price-old pull-left">34 500 <span>р.</span></span>
+                                            </div>
+                                            <div class="product-payment">Рассрочка: 670 р./мес.</div>
+                                            <button class="product-cart pull-left">В корзину</button>
+                                            <button class="product-in-compare">
+                                                <i class="product-compare-icon"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="product clearfix">
+                                        <div class="product-img-block">
+                                            <div class="product-label">
+                                                <span class="label-sale">-10%</span>
+                                            </div>
+                                            <a href="#" class="product-img-link"><img src="images/Layer_5.png" alt="Product" class="product-image img-responsive"></a>
+                                        </div>
+                                        <div class="product-desc-block">
+                                            <h3 class="product-title"><a href="#" class="product-link">Котел Ariston CARES X 24 FF NG</a></h3>
+                                            <div class="product-reviews">
+                                                <ul class="product-rating-block pull-left">
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <div class="review-block pull-right">
+                                                    <i class="fas fa-comment"></i>
+                                                    <a href="#" class="reviews-link">12 отзывов</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-price clearfix">
+                                                <span class="price-new pull-left">32 900 <span>р.</span></span>
+                                                <span class="price-old pull-left">34 500 <span>р.</span></span>
+                                            </div>
+                                            <div class="product-payment">Рассрочка: 670 р./мес.</div>
+                                            <button class="product-cart pull-left">В корзину</button>
+                                            <button class="product-in-compare">
+                                                <i class="product-compare-icon"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="product clearfix">
+                                        <div class="product-img-block">
+                                            <div class="product-label">
+                                                <span class="label-new">Новинка</span>
+                                            </div>
+                                            <a href="#" class="product-img-link"><img src="images/Layer_5.png" alt="Product" class="product-image img-responsive"></a>
+                                        </div>
+                                        <div class="product-desc-block">
+                                            <h3 class="product-title"><a href="#" class="product-link">Котел Ariston CARES X 24 FF NG</a></h3>
+                                            <div class="product-reviews">
+                                                <ul class="product-rating-block pull-left">
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <div class="review-block pull-right">
+                                                    <i class="fas fa-comment"></i>
+                                                    <a href="#" class="reviews-link">12 отзывов</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-price clearfix">
+                                                <span class="price-new pull-left">32 900 <span>р.</span></span>
+                                                <span class="price-old pull-left">34 500 <span>р.</span></span>
+                                            </div>
+                                            <div class="product-payment">Рассрочка: 670 р./мес.</div>
+                                            <button class="product-cart pull-left">В корзину</button>
+                                            <button class="product-in-compare">
+                                                <i class="product-compare-icon"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="product clearfix">
+                                        <div class="product-img-block">
+                                            <div class="product-label">
+                                            </div>
+                                            <a href="#" class="product-img-link"><img src="images/Layer_5.png" alt="Product" class="product-image img-responsive"></a>
+                                        </div>
+                                        <div class="product-desc-block">
+                                            <h3 class="product-title"><a href="#" class="product-link">Котел Ariston CARES X 24 FF NG</a></h3>
+                                            <div class="product-reviews">
+                                                <ul class="product-rating-block pull-left">
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <div class="review-block pull-right">
+                                                    <i class="fas fa-comment"></i>
+                                                    <a href="#" class="reviews-link">12 отзывов</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-price clearfix">
+                                                <span class="price-new pull-left">32 900 <span>р.</span></span>
+                                            </div>
+                                            <div class="product-payment">Рассрочка: 670 р./мес.</div>
+                                            <button class="product-cart pull-left">В корзину</button>
+                                            <button class="product-in-compare">
+                                                <i class="product-compare-icon"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="product clearfix">
+                                        <div class="product-img-block">
+                                            <div class="product-label">
+                                                <span class="label-hit">Хит</span>
+                                            </div>
+                                            <a href="#" class="product-img-link"><img src="images/Layer_5.png" alt="Product" class="product-image img-responsive"></a>
+                                        </div>
+                                        <div class="product-desc-block">
+                                            <h3 class="product-title"><a href="#" class="product-link">Котел Ariston CARES X 24 FF NG</a></h3>
+                                            <div class="product-reviews">
+                                                <ul class="product-rating-block pull-left">
+                                                    <li class="rating-item">
+                                                        <div class="rating-star">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <div class="review-block pull-right">
+                                                    <i class="fas fa-comment"></i>
+                                                    <a href="#" class="reviews-link">5 отзывов</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-price clearfix">
+                                                <span class="price-new pull-left">32 900 <span>р.</span></span>
+                                                <span class="price-old pull-left">34 500 <span>р.</span></span>
+                                            </div>
+                                            <div class="product-payment">Рассрочка: 670 р./мес.</div>
+                                            <button class="product-cart pull-left">В корзину</button>
+                                            <button class="product-in-compare">
+                                                <i class="product-compare-icon"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="product clearfix">
+                                        <div class="product-img-block">
+                                            <div class="product-label"></div>
+                                            <a href="#" class="product-img-link"><img src="images/Layer_5.png" alt="Product" class="product-image img-responsive"></a>
+                                        </div>
+                                        <div class="product-desc-block">
+                                            <h3 class="product-title"><a href="#" class="product-link">Котел Ariston CARES X 24 FF NG</a></h3>
+                                            <div class="product-reviews">
+                                                <ul class="product-rating-block pull-left">
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <div class="review-block pull-right">
+                                                    <i class="fas fa-comment"></i>
+                                                    <a href="#" class="reviews-link">12 отзывов</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-price clearfix">
+                                                <span class="price-new pull-left">32 900 <span>р.</span></span>
+                                                <span class="price-old pull-left">34 500 <span>р.</span></span>
+                                            </div>
+                                            <div class="product-payment">Рассрочка: 670 р./мес.</div>
+                                            <button class="product-cart pull-left">В корзину</button>
+                                            <button class="product-in-compare">
+                                                <i class="product-compare-icon"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="product clearfix">
+                                        <div class="product-img-block">
+                                            <div class="product-label"></div>
+                                            <a href="#" class="product-img-link"><img src="images/Layer_5.png" alt="Product" class="product-image img-responsive"></a>
+                                        </div>
+                                        <div class="product-desc-block">
+                                            <h3 class="product-title"><a href="#" class="product-link">Котел Ariston CARES X 24 FF NG</a></h3>
+                                            <div class="product-reviews">
+                                                <ul class="product-rating-block pull-left">
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <div class="review-block pull-right">
+                                                    <i class="fas fa-comment"></i>
+                                                    <a href="#" class="reviews-link">12 отзывов</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-price clearfix">
+                                                <span class="price-new pull-left">32 900 <span>р.</span></span>
+                                                <span class="price-old pull-left">34 500 <span>р.</span></span>
+                                            </div>
+                                            <div class="product-payment">Рассрочка: 670 р./мес.</div>
+                                            <button class="product-cart pull-left">В корзину</button>
+                                            <button class="product-in-compare">
+                                                <i class="product-compare-icon"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="product clearfix">
+                                        <div class="product-img-block">
+                                            <div class="product-label"></div>
+                                            <a href="#" class="product-img-link"><img src="images/Layer_5.png" alt="Product" class="product-image img-responsive"></a>
+                                        </div>
+                                        <div class="product-desc-block">
+                                            <h3 class="product-title"><a href="#" class="product-link">Котел Ariston CARES X 24 FF NG</a></h3>
+                                            <div class="product-reviews">
+                                                <ul class="product-rating-block pull-left">
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <div class="review-block pull-right">
+                                                    <i class="fas fa-comment"></i>
+                                                    <a href="#" class="reviews-link">12 отзывов</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-price clearfix">
+                                                <span class="price-new pull-left">32 900 <span>р.</span></span>
+                                                <span class="price-old pull-left">34 500 <span>р.</span></span>
+                                            </div>
+                                            <div class="product-payment">Рассрочка: 670 р./мес.</div>
+                                            <button class="product-cart pull-left">В корзину</button>
+                                            <button class="product-in-compare">
+                                                <i class="product-compare-icon"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="product clearfix">
+                                        <div class="product-img-block">
+                                            <div class="product-label">
+                                                <span class="label-hit">Хит</span>
+                                                <span class="label-action"></span>
+                                                <span class="label-sale"></span>
+                                            </div>
+                                            <a href="#" class="product-img-link"><img src="images/Layer_5.png" alt="Product" class="product-image img-responsive"></a>
+                                        </div>
+                                        <div class="product-desc-block">
+                                            <h3 class="product-title"><a href="#" class="product-link">Котел Ariston CARES X 24 FF NG</a></h3>
+                                            <div class="product-reviews">
+                                                <ul class="product-rating-block pull-left">
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star rating-star-active">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class="rating-item">
+                                                        <div class="rating-star">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <div class="review-block pull-right">
+                                                    <i class="fas fa-comment"></i>
+                                                    <a href="#" class="reviews-link">12 отзывов</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-price clearfix">
+                                                <span class="price-new pull-left">32 900 <span>р.</span></span>
+                                                <span class="price-old pull-left">34 500 <span>р.</span></span>
+                                            </div>
+                                            <div class="product-payment">Рассрочка: 670 р./мес.</div>
+                                            <button class="product-cart pull-left">В корзину</button>
+                                            <button class="product-in-compare">
+                                                <i class="product-compare-icon"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pagination-block">
+                            <ul class="pagination">
+                                <li><a href="#">&laquo;</a></li>
+                                <li><a href="#" class="active">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li class="hidden-xs"><a href="#">4</a></li>
+                                <li class="hidden-xs"><a href="#">5</a></li>
+                                <li><span>...</span></li>
+                                <li><a href="#">12</a></li>
+                                <li><a href="#">&raquo;</a></li>
+                            </ul>
+                        </div>
+                        <div class="category-desc">
+                            <h2 class="category-desc-title">Газовые котлы</h2>
+                            <div class="category-desc-text">
+                                <p>Котлы газовые устанавливаются в частные дома и квартиры для получения тепловой энергии. Они нужны для отопления помещения и нагрева воды. Работает система при подаче газообразного топлива. При установлении такого прибора нужно понимать, что газ это взрывоопасное вещество. При нарушенном воздухообмене продукт сгорания может оставаться в помещении, что приведет к отравлению угарным газом. Для установки такой системы нужно, чтобы в доме был дымоход, что обеспечит отвод результатов сгорания и поступление чистого воздуха.</p>
+                                <p class="hidden-xs">Прямое сотрудничество с такими известными мировыми производителями, как Baxi, Ariston, Buderus, Bosch, Viessmann, Grundfos, Frankische, Wavin позволяет нам предложить выгодные цены не только для розничных, но и для оптовых покупателей.</p>
+                                <button>Читать подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+                    <div class="footer-logo-block "><img src="images/6-layers.png" alt="Logo" class="footer-logo-image img-responsive"></div>
+                    <div class="footer-slogan">Интернет-магазин отопительного оборудования</div>
+                    <div class="footer-copy">&copy; 2019, АльфаВент <br> Все права защищены</div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                    <div class="footer-main-nav">
+                        <h3 class="footer-nav-title">Каталог товаров</h3>
+                        <ul class="footer-nav-block hidden-xs">
+                            <li class="footer-nav-item"><a href="#" class="footer-nav-link">Кондиционеры</a></li>
+                            <li class="footer-nav-item"><a href="#" class="footer-nav-link">Вентиляционное оборудование</a></li>
+                            <li class="footer-nav-item"><a href="#" class="footer-nav-link">Котлы</a></li>
+                            <li class="footer-nav-item"><a href="#" class="footer-nav-link">Тепловыепушки</a></li>
+                            <li class="footer-nav-item"><a href="#" class="footer-nav-link">Бойлеры</a></li>
+                            <li class="footer-nav-item"><a href="#" class="footer-nav-link">Радиаторы</a></li>
+                            <li class="footer-nav-item"><a href="#" class="footer-nav-link">Тепловыезавесы</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                    <div class="footer-info-nav">
+                        <h3 class="footer-info-title">Покупателю</h3>
+                        <ul class="footer-info-block hidden-xs">
+                            <li class="footer-info-item"><a href="#" class="footer-info-link">Окомпании</a></li>
+                            <li class="footer-info-item"><a href="#" class="footer-info-link">Доставкаиоплата</a></li>
+                            <li class="footer-info-item"><a href="#" class="footer-info-link">Гарантия</a></li>
+                            <li class="footer-info-item"><a href="#" class="footer-info-link">Вопрос-ответ</a></li>
+                            <li class="footer-info-item"><a href="#" class="footer-info-link">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                    <div class="footer-contacts">
+                        <ul class="footer-contacts-block">
+                            <li class="footer-contacts-item">
+                                <div class="call-request">
+                                    <div class="footer-icon footer-icon-call"></div>
+                                    <div class="call-request-phon">+7 (495) 670 70 70</div>
+                                    <button class="call-request-link" data-toggle="modal" data-target=".bs-example-modal-sm">Заказать звонок</button>
+                                </div>
+                            </li>
+                            <li class="footer-contacts-item">
+                                <div class="time-work">
+                                    <div class="footer-icon footer-icon-time"></div>
+                                    <span class="time-work-bold">Пн.-Пт.:</span> 9:00 - 19:00 <span class="time-work-bold">Сб.-Вс.:</span> 10:00 - 16:00
+                                </div>
+                            </li>
+                            <li class="footer-contacts-item">
+                                <div class="mail">
+                                    <div class="footer-icon footer-icon-mail"></div>
+                                    <span>E-mail:</span> <a href="mailto:info@alfavent.ru" class="mail-link">info@alfavent.ru</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="payment-block clearfix">
+                            <li class="payment-item pull-left">
+                                <a href="#" class="payment-link"><i class="vizs-icon"></i></a>
+                            </li>
+                            <li class="payment-item pull-left">
+                                <a href="#" class="payment-link"><i class="master-icon"></i></a>
+                            </li>
+                            <li class="payment-item pull-left">
+                                <a href="#" class="payment-link"><i class="pay-icon"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row hidden-lg hidden-md visible-sm visible-xs">
+                <div class="footer-copy col-sm-12 col-sx-12"><p>&copy; 2019, АльфаВент <br> Все права защищены</p></div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <!-- slick -->
+    <script src="slick-1.8.1/slick/slick.min.js"></script>
+  </body>
+</html>
